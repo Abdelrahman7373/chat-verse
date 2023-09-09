@@ -59,7 +59,7 @@ export const CreateServerModal = () => {
                         Customize your server
                     </DialogTitle>
                     <DialogDescription className="text-center text-zinc-500">
-                        Elevate your server's essence with a unique name and stunning image
+                        Elevate your server&apos;s essence with a unique name and stunning image
                     </DialogDescription>
                 </DialogHeader>
                 <Form {...form}>
