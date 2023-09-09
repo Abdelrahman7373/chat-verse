@@ -88,7 +88,7 @@ export const ChatItem = ({id,content,member,timestamp,fileUrl,deleted,currentMem
 
     useEffect(() => {
         form.reset({content: content,});
-    }, [content]);
+    }, [content, form]);
 
     useEffect(() => {
         const handleKeyDown = (event: any) => {
